@@ -1,4 +1,4 @@
-I am a 3rd year graduate student in the [Brown University Division of Applied Mathematics](https://www.brown.edu/academics/applied-mathematics/). I am part of the [Serre Lab](http://serre-lab.clps.brown.edu/). My interests include statistics, probability, graphical models, and deep learning.
+I am currently a data scientist at [Bevi](https://www.bevi.co/)! I recently finished my masters in Applied Mathematics at [Brown University Division of Applied Mathematics](https://www.brown.edu/academics/applied-mathematics/) where I was part of the [Serre Lab](http://serre-lab.clps.brown.edu/). My interests include statistics, probability, graphical models, and deep learning.
 
 ## Research
 - [Learning to predict action potentials end-to-end from calcium imaging data](https://ieeexplore.ieee.org/document/8362319/?reload=true)
