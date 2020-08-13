@@ -5,3 +5,6 @@ I am currently a data scientist looking for my next opportunity. I was previousl
 - [Bayesian Optimization Tutorial (Work in Progress)](https://github.com/nathanlmeyers/hyperparam2/tree/master/tutorial)
 - [Using Social Media to Discern Variations in the Temporal Structure of Sociability Across American Cities](https://convention2.allacademic.com/one/ica/ica18/index.php?cmd=Online+Program+View+Paper&selected_paper_id=1365281&PHPSESSID=hidjmgnbmuasrpujo5vk3h6595)
 - [Diagonalizing hermitian matrices of continuous functions](https://arxiv.org/pdf/1212.5732.pdf)
+
+## Sketches
+- [BOP: Song Capitalization Over Time](https://github.com/nathanlmeyers/song_capitalization)
