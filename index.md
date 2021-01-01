@@ -8,3 +8,4 @@ I am currently a data scientist at [OpenLattice](https://openlattice.com/). I wa
 
 ## Sketches
 - [BOP: Song Capitalization Over Time](https://github.com/nathanlmeyers/song_capitalization)
+- [Are You The One (Season 3) Python Companion](https://github.com/enandini/AYTO-S3/blob/main/ayto_season_3.ipynb)
