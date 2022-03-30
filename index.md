@@ -9,3 +9,6 @@ I am currently a senior data scientist at [WAIR](https://getwair.com/). I have p
 ## Sketches
 - [BOP: Song Capitalization Over Time](https://github.com/nathanlmeyers/song_capitalization)
 - [Are You The One (Season 3) Python Companion](https://github.com/enandini/AYTO-S3/blob/main/ayto_season_3.ipynb)
+
+## Store!
+[Buy NATE swag here](https://nathanlmeyers.myshopify.com/)
