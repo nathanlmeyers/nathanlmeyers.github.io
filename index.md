@@ -1,7 +1,4 @@
-I am currently a senior data scientist at [WAIR](https://getwair.com/). I have previously worked as a data scientist at a few small startups: [Stackin'](https://stackin.com/), [OpenLattice](https://openlattice.com/), and [Bevi](https://www.bevi.co/). Before working in tech, I was a graduate student in Applied Mathematics at the [Brown University Division of Applied Mathematics](https://www.brown.edu/academics/applied-mathematics/) where I was part of the [Serre Lab](http://serre-lab.clps.brown.edu/). My interests include statistics, probability, graphical models, and deep learning.
-
-## Merch
-[Buy NATE swag here](https://nathanlmeyers.myshopify.com/)
+I am currently a senior data scientist at [WAIR](https://getwair.com/). You can see WAIR in action on clothing brands like [Vineyard Vines](https://www.vineyardvines.com/), [SHEFIT](https://shefit.com/), and [BYLT](https://byltbasics.com/), just click the find my fit button. I have previously worked as a data scientist at a few small startups: [Stackin'](https://stackin.com/), [OpenLattice](https://openlattice.com/), and [Bevi](https://www.bevi.co/). Before working in tech, I was a graduate student in Applied Mathematics at the [Brown University Division of Applied Mathematics](https://www.brown.edu/academics/applied-mathematics/) where I was part of the [Serre Lab](http://serre-lab.clps.brown.edu/). My interests include statistics, probability, graphical models, and deep learning.
 
 ## Research
 - [Learning to predict action potentials end-to-end from calcium imaging data](https://ieeexplore.ieee.org/document/8362319/?reload=true)
