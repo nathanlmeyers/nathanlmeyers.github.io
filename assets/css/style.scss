@@ -139,6 +139,24 @@ main > ul > li {
   margin-bottom: 1rem;
 }
 
+// Projects
+.projects {
+  margin-top: 2.5rem;
+}
+
+.project-entry p {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.project-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: text-bottom;
+  margin-right: 0.25rem;
+}
+
 // Spotify embed
 .spotify-embed {
   margin-top: 3rem;
