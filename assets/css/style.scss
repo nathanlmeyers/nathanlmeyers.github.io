@@ -1,18 +1,190 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+:root {
+  --text: #111;
+  --text-muted: #555;
+  --text-faint: #767676;
+  --accent: #2563eb;
+  --bg: #fff;
+  --focus-ring: #2563eb;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  cursor: url('/juice_box.png'), auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, button, input, select, textarea, [role="button"] {
+  cursor: pointer;
+}
+
+// Focus indicators
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+// Layout
+header,
+main,
+footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// Header
+header {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.tagline {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+header nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.25rem;
+}
+
+header nav a {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+header nav a:hover,
+header nav a:focus {
+  color: var(--text);
+}
+
+// Links
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+// Main content
+main {
+  padding-bottom: 3rem;
+}
+
+main > p:first-child {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+// Headings
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+// Lists
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+// Research items
+main > ul > li {
+  margin-bottom: 1rem;
+}
+
+// Spotify embed
+.spotify-embed {
+  margin-top: 3rem;
+}
+
+.spotify-embed iframe {
+  display: block;
+  max-width: 100%;
+}
+
+// Footer
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.7rem;
+  color: var(--text-faint);
+}
+
+// Screen reader utility
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  padding: 0.5rem 1rem;
+  background: var(--text);
+  color: var(--bg);
+  z-index: 100;
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+  header nav a {
+    transition: none;
+  }
 }

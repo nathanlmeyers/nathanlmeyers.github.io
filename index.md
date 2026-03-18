@@ -1,8 +1,31 @@
-I am a data generalist and have worked as the first data hire at a bunch of small startups. Most recently, I was the senior data scientist at [Allouve](https://www.allouve.com/). I have previously worked as a data scientist at [WAIR](https://getwair.com/), Stackin' (a now defunct financial literacy platform), OpenLattice (a government tech startup that has since shut down), and [Bevi](https://www.bevi.co/) (a sparkling water machine startup that is still going strong). Before working in tech, I was a graduate student in Applied Mathematics at the [Brown University Division of Applied Mathematics](https://www.brown.edu/academics/applied-mathematics/) where I was part of the [Serre Lab](http://serre-lab.clps.brown.edu/). My interests include statistics, probability, graphical models, and deep learning.
+---
+layout: default
+---
+
+I build data teams at startups from the ground up — turning messy, undefined data problems into real products and decisions.
+
+## Experience
+
+Most recently, I was Senior Data Scientist at [Allouve](https://www.allouve.com/). Before that:
+
+- **[WAIR](https://getwair.com/)** — Data Scientist
+- **Stackin'** — Data Scientist *(financial literacy platform, now defunct)*
+- **OpenLattice** — Data Scientist *(gov-tech startup, now shut down)*
+- **[Bevi](https://www.bevi.co/)** — Data Scientist *(sparkling water machines, still going strong)*
 
 ## Research
-- [Variations in the Temporal Structure of Sociability across American Cities](https://journals.sagepub.com/doi/epub/10.1177/0038038520956940)
-- [Learning to predict action potentials end-to-end from calcium imaging data](https://ieeexplore.ieee.org/document/8362319/?reload=true)
-- [Bayesian Optimization Tutorial (Work in Progress)](https://github.com/nathanlmeyers/hyperparam2/tree/master/tutorial)
-- [Using Social Media to Discern Variations in the Temporal Structure of Sociability Across American Cities](https://convention2.allacademic.com/one/ica/ica18/index.php?cmd=Online+Program+View+Paper&selected_paper_id=1365281&PHPSESSID=hidjmgnbmuasrpujo5vk3h6595)
-- [Diagonalizing hermitian matrices of continuous functions](https://arxiv.org/pdf/1212.5732.pdf)
+
+- **Variations in the Temporal Structure of Sociability across American Cities** (2020)
+  [*Sociology*](https://journals.sagepub.com/doi/epub/10.1177/0038038520956940)
+
+- **Learning to Predict Action Potentials End-to-End from Calcium Imaging Data** (2018)
+  [*IEEE ICASSP*](https://ieeexplore.ieee.org/document/8362319/?reload=true)
+
+- **Using Social Media to Discern Variations in the Temporal Structure of Sociability Across American Cities** (2018)
+  [*ICA Conference*](https://convention2.allacademic.com/one/ica/ica18/index.php?cmd=Online+Program+View+Paper&selected_paper_id=1365281&PHPSESSID=hidjmgnbmuasrpujo5vk3h6595)
+
+- **Diagonalizing Hermitian Matrices of Continuous Functions** (2012)
+  [*arXiv*](https://arxiv.org/pdf/1212.5732.pdf)
+
+- **Bayesian Optimization Tutorial** *(work in progress)*
+  [GitHub](https://github.com/nathanlmeyers/hyperparam2/tree/master/tutorial)
