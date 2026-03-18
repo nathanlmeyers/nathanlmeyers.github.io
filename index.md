@@ -2,8 +2,6 @@
 layout: default
 ---
 
-I build data teams at startups from the ground up — turning messy, undefined data problems into real products and decisions.
-
 ## Experience
 
 Most recently, I was Senior Data Scientist at [Allouve](https://www.allouve.com/). Before that:
