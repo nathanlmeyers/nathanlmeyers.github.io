@@ -4,7 +4,8 @@ layout: default
 
 ## Experience
 
-Most recently, I was Senior Data Scientist at [Allouve](https://www.allouve.com/). Before that:
+I am a Senior Data Scientist at [Allouve](https://www.allouve.com/). Before that:
+
 
 - **[WAIR](https://getwair.com/)** — Data Scientist
 - **Stackin'** — Data Scientist *(financial literacy platform, now defunct)*
