@@ -17,7 +17,6 @@
 
     <header>
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
       <nav aria-label="Social links">
         <a href="https://github.com/{{ site.author.github_username }}" aria-label="GitHub">GitHub</a>
         <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" aria-label="LinkedIn">LinkedIn</a>
@@ -27,27 +26,9 @@
     <main id="content">
       {{ content }}
 
-      <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-entry">
-          <a href="https://charmera-wall.fly.dev/">
-            <img src="/images/photowall-icon.png" alt="" class="project-icon" width="18" height="18">
-            <strong>Photowall</strong>
-          </a>
-          <p>Photo wall generator for the Kodak Charmera camera.
-            <a href="https://github.com/nathanlmeyers/photowall">Source</a>
-          </p>
-        </div>
-      </section>
-
       <section class="spotify-embed">
-        <h2>What I'm listening to</h2>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0ULdcEveylleUJL0iEGBig?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0ULdcEveylleUJL0iEGBig?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
       </section>
     </main>
-
-    <footer>
-      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}</span>
-    </footer>
   </body>
 </html>

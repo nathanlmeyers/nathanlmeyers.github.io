@@ -4,10 +4,9 @@
 :root {
   --text: #111;
   --text-muted: #555;
-  --text-faint: #767676;
-  --accent: #2563eb;
+  --text-faint: #999;
+  --rule: #d4d4d4;
   --bg: #fff;
-  --focus-ring: #2563eb;
 }
 
 *,
@@ -21,7 +20,7 @@
 body {
   font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--text);
   background: var(--bg);
   cursor: url('/juice_box.png'), auto;
@@ -35,50 +34,43 @@ a, button, input, select, textarea, [role="button"] {
 
 // Focus indicators
 :focus-visible {
-  outline: 2px solid var(--focus-ring);
+  outline: 2px solid currentColor;
   outline-offset: 2px;
 }
 
 // Layout
 header,
-main,
-footer {
-  max-width: 640px;
+main {
+  max-width: 560px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 // Header
 header {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 header h1 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   line-height: 1.2;
 }
 
-.tagline {
-  margin-top: 0.25rem;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  font-weight: 400;
-}
-
 header nav {
-  margin-top: 1rem;
   display: flex;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 header nav a {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-faint);
   text-decoration: none;
-  transition: color 0.2s;
 }
 
 header nav a:hover,
@@ -88,40 +80,46 @@ header nav a:focus {
 
 // Links
 a {
-  color: var(--accent);
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
 }
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration-color: var(--text);
 }
 
 // Main content
 main {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 main > p:first-child {
-  font-size: 0.95rem;
   color: var(--text-muted);
-  margin-bottom: 2rem;
 }
 
-// Headings
+// Section labels
 h2 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  margin-top: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  margin-top: 3rem;
   margin-bottom: 0.75rem;
-  letter-spacing: -0.01em;
 }
 
-h3 {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-bottom: 0.5rem;
+// Body text outside links (years, separators, unlinked names) reads faint
+main p,
+main li {
+  color: var(--text-faint);
+}
+
+main p a,
+main li a {
+  color: var(--text);
 }
 
 // Lists
@@ -134,29 +132,6 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
-// Research items
-main > ul > li {
-  margin-bottom: 1rem;
-}
-
-// Projects
-.projects {
-  margin-top: 2.5rem;
-}
-
-.project-entry p {
-  margin-top: 0.25rem;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
-
-.project-icon {
-  width: 18px;
-  height: 18px;
-  vertical-align: text-bottom;
-  margin-right: 0.25rem;
-}
-
 // Spotify embed
 .spotify-embed {
   margin-top: 3rem;
@@ -165,14 +140,6 @@ main > ul > li {
 .spotify-embed iframe {
   display: block;
   max-width: 100%;
-}
-
-// Footer
-footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-size: 0.7rem;
-  color: var(--text-faint);
 }
 
 // Screen reader utility
@@ -198,11 +165,4 @@ footer {
   background: var(--text);
   color: var(--bg);
   z-index: 100;
-}
-
-// Reduced motion
-@media (prefers-reduced-motion: reduce) {
-  header nav a {
-    transition: none;
-  }
 }
